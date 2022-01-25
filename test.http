@@ -1,0 +1,12 @@
+# Получить банк по БИК
+GET http://localhostu:3001/banks/04180671 HTTP/1.1
+###
+GET http://localhost:3001/banks/047501906 HTTP/1.1
+###
+GET http://localhost:3001/banks/0475019 HTTP/1.1
+###
+GET http://localhost:3001/banks/30101810600000000906 HTTP/1.1
+###
+
+# Обновить справочник банков
+GET http://localhost:3001/banks/update/12345

@@ -1,0 +1,12 @@
+# зависимости
+/node_modules
+package-lock.json
+
+# настройки
+#config.json
+
+# сертификаты
+/certs
+
+# база данных
+*.sqlite*
